@@ -124,16 +124,7 @@ textarea {
   height: 100%;
   overflow: hidden;
 }
-#mainContainer #index_page {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: url(../img/index_bg.jpg) no-repeat;
-  background-size: 100%;
-}
-#mainContainer .swiper-container {
+#mainContainer .public .swiper-container {
   position: absolute;
   top: 0.413333rem;
   left: 0.96rem;
@@ -141,7 +132,7 @@ textarea {
   height: 5.333333rem;
   overflow: hidden;
 }
-#mainContainer .swiper-container .swiper-wrapper {
+#mainContainer .public .swiper-container .swiper-wrapper {
   position: relative;
   width: 100%;
   height: 100%;
@@ -160,7 +151,7 @@ textarea {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
 }
-#mainContainer .swiper-container .swiper-slide {
+#mainContainer .public .swiper-container .swiper-slide {
   -webkit-flex-shrink: 0;
   -ms-flex: 0 0 auto;
   flex-shrink: 0;
@@ -168,10 +159,10 @@ textarea {
   height: 100%;
   position: relative;
 }
-#mainContainer .swiper-container .swiper-slide img {
+#mainContainer .public .swiper-container .swiper-slide img {
   width: 100%;
 }
-#mainContainer .swiper-container .swiper-pagination-bullet {
+#mainContainer .public .swiper-container .swiper-pagination-bullet {
   width: 8px;
   height: 8px;
   margin: 0 0.066667rem;
@@ -179,12 +170,12 @@ textarea {
   border-radius: 100%;
   background: #0e326e;
 }
-#mainContainer .swiper-container .swiper-pagination-bullet-active {
+#mainContainer .public .swiper-container .swiper-pagination-bullet-active {
   width: 10px;
   height: 10px;
   background: #c91019;
 }
-#mainContainer .swiper-container .swiper-pagination {
+#mainContainer .public .swiper-container .swiper-pagination {
   position: absolute;
   width: 100%;
   bottom: 0.16rem;
@@ -196,34 +187,43 @@ textarea {
   transition: .3s;
   z-index: 999;
 }
-#mainContainer .pic_group .pic {
+#mainContainer .public .pic_group .pic {
   position: absolute;
   top: 6.4rem;
   width: 3.546667rem;
   height: 2.84rem;
 }
-#mainContainer .pic_group .pic img {
+#mainContainer .public .pic_group .pic img {
   width: 3.546667rem;
   height: 2.84rem;
 }
-#mainContainer .pic_group .pic1 {
+#mainContainer .public .pic_group .pic1 {
   left: 1.13rem;
 }
-#mainContainer .pic_group .pic2 {
+#mainContainer .public .pic_group .pic2 {
   right: 1.13rem;
 }
-#mainContainer .pic_group .pic3 {
+#mainContainer .public .pic_group .pic3 {
   position: absolute;
   top: 9.773333rem;
   left: 1.1666665rem;
   width: 7.666667rem;
   height: 4.2rem;
 }
-#mainContainer .pic_group .pic3 img {
+#mainContainer .public .pic_group .pic3 img {
   width: 7.666667rem;
   height: 4.2rem;
 }
-#mainContainer .icon1 {
+#index_page {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../img/index_bg.jpg) no-repeat;
+  background-size: 100%;
+}
+#index_page .icon1 {
   position: absolute;
   top: 8.573333rem;
   left: 3.56rem;
@@ -233,7 +233,7 @@ textarea {
   background-size: 100%;
   z-index: 1;
 }
-#mainContainer .icon2 {
+#index_page .icon2 {
   position: absolute;
   top: 12.706667rem;
   left: 6.24rem;
@@ -243,7 +243,7 @@ textarea {
   background-size: 100%;
   z-index: 1;
 }
-#mainContainer .logo {
+#index_page .logo {
   position: absolute;
   top: 14.426667rem;
   left: 1.026667rem;
@@ -251,4 +251,43 @@ textarea {
   height: 0.6rem;
   background: url(../img/logo.png) no-repeat;
   background-size: 100%;
+}
+#template1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../img/template1_bg.jpg) no-repeat;
+  background-size: 100%;
+}
+#template1 .icon1 {
+  position: absolute;
+  top: 8.453333rem;
+  left: 3.32rem;
+  width: 2.666667rem;
+  height: 2.706667rem;
+  background: url(../img/template1_icon1.png) no-repeat;
+  background-size: 100%;
+  z-index: 1;
+}
+#template1 .icon2 {
+  position: absolute;
+  top: 13rem;
+  left: 1.56rem;
+  width: 2.813333rem;
+  height: 2.333333rem;
+  background: url(../img/template1_icon2.png) no-repeat;
+  background-size: 100%;
+  z-index: 1;
+}
+#template1 .icon3 {
+  position: absolute;
+  top: 12.7rem;
+  left: 5.226667rem;
+  width: 3.733333rem;
+  height: 2.52rem;
+  background: url(../img/template1_icon3.png) no-repeat;
+  background-size: 100%;
+  z-index: 1;
 }
